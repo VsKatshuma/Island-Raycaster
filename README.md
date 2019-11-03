@@ -1,7 +1,9 @@
-# Isometric-Raytracer
+# Island-Raycaster
 
-This project was created purely to look cool and to explore the graphical limitations of the HTML5 canvas element.
+I made a raycaster in JavaScript. Single thread and no GPU. Never again.
 
-The project contains just 2 files: a HTML file and a JavaScript file. Put them in the same folder and run the HTML file in a browser to demo the project.
+There is a word in Finnish called **auringonsilta**. It refers to the elongated reflection of the Sun on the surface of water. "Sun's bridge" would be the literal translation, but there is no English expression that carries the exact same meaning. This expression inspired me to create this pet project of mine. Island raycaster draws a full image using only raycasting, utilizing no external libraries or matrix transformations. It was created to look cool and to explore the graphical limitations of the HTML5 canvas element. Maybe an optimized version could become a screensaver in the future.
 
-The project is still largely unfinished, but the current version works as a proof of concept, rotating just under half a million pixels on the screen. I'll add a few benchmarks at a later date, but it should hit at least 40 FPS on a decent computer.
+To run the project, put the HTML and JavaScript files in the same folder and open the HTML file in any browser. I might set up a server running this 24/7 one day, but no promises.
+
+The project is still largely unfinished, but the current version works as a proof of concept, rotating just under half a million pixels on the screen.
